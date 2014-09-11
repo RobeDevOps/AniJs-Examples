@@ -16,6 +16,4 @@ Here show how to do the same with AniJS library, is really easy.
 <nav></nav>
 ```
 
-See the [slide Menu][1] example.
 
-[1]:http://codepen.io/RobeDevOps/pen/GKktB

@@ -47,3 +47,13 @@ border-radius:7px;
 -moz-box-shadow:0 0 5px rgba(52, 152, 219,1.0) inset;
 box-shadow:0 0 5px rgba(52, 152, 219,1.0) inset;
 }
+
+footer {
+color: rgba(230, 126, 34,1.0);
+text-align: center;
+background: rgba(44, 62, 80,1.0);
+}
+
+footer a{
+color: rgba(46, 204, 113,1.0);
+}

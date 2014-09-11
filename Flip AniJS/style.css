@@ -1,0 +1,49 @@
+ul.ani-flip{
+margin:0;
+padding:0;
+list-style:none;
+}
+
+ul.ani-flip li{
+display: inline-block;
+width: 80px; 
+height: 80px;
+margin-right: 10px auto;
+background: white;
+font: bold 54px Arial;
+text-transform: uppercase;
+text-align: center;
+cursor: pointer;
+-webkit-transition:all 300ms ease-out 0.1s;
+-moz-transition:all 300ms ease-out 0.1s;
+-o-transition:all 300ms ease-out 0.1s;
+transition:all 300ms ease-out 0.1s;
+}
+
+ul.ani-flip li span{
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+padding-top: 5px;
+display:block;
+width: 100%;
+height: 100%;
+-webkit-transition:all 300ms ease-out 0.1s;
+-moz-transition:all 300ms ease-out 0.1s;
+-o-transition:all 300ms ease-out 0.1s;
+transition:all 300ms ease-out 0.1s;
+}
+
+.inverse {
+-moz-transform: rotateY(180deg); 
+-webkit-transform: rotateY(180deg);
+transform: rotateY(180deg);
+color: rgba(52, 152, 219,1.0);
+background: rgba(44, 62, 80,1.0); 
+-webkit-border-radius:7px;
+-moz-border-radius:7px;
+border-radius:7px;
+-webkit-box-shadow:0 0 5px rgba(52, 152, 219,1.0) inset;
+-moz-box-shadow:0 0 5px rgba(52, 152, 219,1.0) inset;
+box-shadow:0 0 5px rgba(52, 152, 219,1.0) inset;
+}

@@ -12,7 +12,7 @@ for organization reasons.
 #### Examples with AniJS
 
 + [Slide Menu][1].
-+ [Flip AniJS ][1].
++ [Flip AniJS ][2].
 
 [1]:http://codepen.io/RobeDevOps/pen/GKktB
 [2]:http://codepen.io/RobeDevOps/pen/osyIr

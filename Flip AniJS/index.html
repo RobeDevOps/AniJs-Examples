@@ -1,20 +1,22 @@
 <html>
 <head>
-<link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-<ul class="ani-flip">
-<li><span data-anijs="if: click, do: $toggleClass inverse;">a</span></li>
-<li><span data-anijs="if: click, do: $toggleClass inverse;">n</span></li>
-<li><span data-anijs="if: click, do: $toggleClass inverse;">i</span></li>
-<li><span data-anijs="if: click, do: $toggleClass inverse;">.</span></li>
-<li><span data-anijs="if: click, do: $toggleClass inverse;">j</span></li>
-<li><span data-anijs="if: click, do: $toggleClass inverse;">s</span></li>
+<p>Click on letter and you see the flip</p>
+<ul class="ani-flip" data-anijs="if: click, on:span, do: $toggleClass inverse, to: target;">
+    <li><span>a</span></li>
+    <li><span>n</span></li>
+    <li><span>i</span></li>
+    <li><span>.</span></li>
+    <li><span>j</span></li>
+    <li><span>s</span></li>
 </ul>
 <footer>
-<p>Author: Roberto Cardenas Isla</p>
-<p>Download this example and others from <a href="https://github.com/RobeDevOps/AniJs-Examples"> AniJs-Examples</a></p>
+    <p>Author: Roberto Cardenas Isla</p>
+    <p>Download this example and others from <a href="https://github.com/RobeDevOps/AniJs-Examples"> AniJs-Examples</a></p>
 </footer>
+
+<!-- AniJS core library -->
 <script src="http://anijs.github.io/lib/anijs/anijs-min.js"></script>
 <script src="http://anijs.github.io/lib/anijs/helpers/dom/anijs-helper-dom-min.js"></script>
 </body>

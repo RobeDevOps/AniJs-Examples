@@ -52,8 +52,35 @@ footer {
 color: rgba(230, 126, 34,1.0);
 text-align: center;
 background: rgba(44, 62, 80,1.0);
+position:fixed;
+width: 100%;
+bottom:0px;
 }
 
 footer a{
-color: rgba(46, 204, 113,1.0);
+	color: rgba(243, 156, 18,1.0);
+}
+
+li:nth-child(1) {
+  color:#3498db;
+}
+
+li:nth-child(2) {
+  color:#e74c3c;
+}
+
+li:nth-child(3) {
+  color:#f1c40f;
+}
+
+li:nth-child(4) {
+  color:#3498db;
+}
+
+li:nth-child(5) {
+  color:#2ecc71;
+}
+
+li:nth-child(6) {
+  color:#e74c3c;
 }
